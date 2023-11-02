@@ -1,10 +1,7 @@
-import Image from 'next/image';
-import NavBar from '@/components/NavBar';
+import NavBar from '@/components/NavBar'
+import React from 'react'
 
-export default function Home() {
-
-  
-
+const page = () => {
   return (
     <main className="flex min-h-screen flex-col items-center ">
      
@@ -17,3 +14,5 @@ export default function Home() {
     </main>
   )
 }
+
+export default page
