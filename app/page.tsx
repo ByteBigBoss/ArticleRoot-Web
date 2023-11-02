@@ -7,7 +7,7 @@ export default function Home() {
   
 
   return (
-    <main className="flex min-h-screen flex-col items-center bg-slate-50">
+    <main className="flex min-h-screen flex-col items-center bg-slate-50 pb-[100px] overflow-x-hidden">
    
 
     <div className='pt-6 w-full bg-black flex justify-center pb-[20px]'>
@@ -16,7 +16,7 @@ export default function Home() {
     </div>
     </div>
 
-    <section>
+    <section className='w-full flex flex-col items-center'>
       <div className='frame-container'>
 
      <div className='mt-[60px]'>
