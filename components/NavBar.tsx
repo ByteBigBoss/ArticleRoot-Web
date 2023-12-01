@@ -13,6 +13,7 @@ const NavBar = () => {
   const navigateToHome = () => {
     route.push("/", { scroll: false });
   };
+  
   const navigateToReadArticale = () => {
     route.push("/read", { scroll: false });
   };
