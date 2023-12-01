@@ -37,7 +37,7 @@ const NavBar = () => {
     <div className="font-family-Montserrat flex items-center justify-between nsTsm:flex-col">
       <div className="nsTsm:pt-[20px]">
         <div className="text-[36px] font-bold text-white">
-          ARTICALE<span className="text-blue-500">ROOT</span>
+          ARTICLE<span className="text-blue-500">ROOT</span>
         </div>
       </div>
 
