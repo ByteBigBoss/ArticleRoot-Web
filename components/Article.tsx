@@ -2,18 +2,18 @@ import Image from 'next/image'
 import React from 'react'
 import ContentBlock from './ContentBlock';
 import articleData from '@/data/Article.json';
+import FiberManualRecordIcon from '@mui/icons-material/FiberManualRecord';
 
 interface ArticleProps{
   articleID:string;
 }
 
-const Article = () => {
+const Article:React.FC<ArticleProps> = ({articleID}) => {
 
-  const data = articleData[0];
+  const data = articleData[parseInt(articleID)];
   
   return (
     <div className='bg-white shadow-md rounded-[24px] border-[1px] border-slate-200 w-full h-auto box-border p-[40px]'>
-
       {/* user */}
       <div className='pb-[24px] border-b-[1px] border-b-slate-200 flex justify-between nsTsm:flex-col'>
        <div className='flex gap-[30px] nsTsm:flex-col'>

@@ -2,7 +2,7 @@
   {
     "id":"1",
     "user":{
-      "pic":"",
+      "pic":"/profile.jpeg",
       "name":"Nethmina Sandaruwan",
       "date":"2023-11-03"
     },
@@ -106,6 +106,218 @@
             {
               "title":"",
               "content":"In the realm of software development, Object-Oriented Programming Concepts are more than just principles; they are the building blocks of robust and efficient applications. By embracing OOPC, developers can create software that is modular, reusable, scalable, and easy to maintain. As the IT field continues to evolve, a solid understanding of OOPC is a valuable asset for any software engineer."
+            }
+          ]
+        }
+      ]
+    }
+  },
+
+  {
+    "id":"2",
+    "user":{
+      "pic":"/profile.jpeg",
+      "name":"Nethmina Sandaruwan",
+      "date":"2023-11-03"
+    },
+    "article":{
+      "category":"Software Development",
+      "title":"The Power of Yarn: A Comprehensive Guide to Package Management",
+      "subtitle":"Exploring the Benefits of Yarn in Modern Software Development",
+      "content":[
+        {
+          "subUnitName":"Introduction",
+          "blocks":[
+            {
+              "title":"",
+              "content":"In the ever-evolving landscape of software development, efficient package management is crucial. Yarn, a popular package manager, has gained prominence for its speed and reliability. This article takes an in-depth look at Yarn, its features, and how it enhances the development process."
+            }
+          ]
+        },
+        {
+          "subUnitName":"Introduction to Yarn",
+          "blocks":[
+            {
+              "title":"",
+              "content":"Yarn is a fast, reliable, and secure package manager for JavaScript. It was developed by Facebook to address some of the limitations of the popular npm package manager. Yarn offers a significant improvement in performance and has become a go-to choice for many developers."
+            }
+          ]
+        },
+        {
+          "subUnitName":"Key Features of Yarn",
+          "blocks":[
+            {
+              "title":"",
+              "content":"Yarn offers several key features that make it a preferred choice in modern software development:"
+            },
+            {
+              "title":"Speed",
+              "content":"Yarn is known for its blazing-fast speed when it comes to package installation and dependency resolution. This speed is achieved through its parallel processing capabilities and intelligent caching."
+            },
+            {
+              "title":"Deterministic",
+              "content":"Yarn ensures deterministic builds, meaning that all developers working on a project get the same dependencies with the same versions. This reduces the chances of issues related to different package versions."
+            },
+            {
+              "title":"Offline Mode",
+              "content":"Yarn has an offline mode that allows developers to work without an internet connection, making it ideal for scenarios with limited or no connectivity."
+            },
+            {
+              "title":"Workspaces",
+              "content":"Yarn introduces the concept of workspaces, which simplifies managing multi-package repositories. Workspaces enable developers to link packages together for easier development and testing."
+            },
+            {
+              "title":"Security",
+              "content":"Yarn is committed to security. It provides tools to check for vulnerabilities in your dependencies and offers solutions for mitigation."
+            }
+          ]
+        },
+        {
+          "subUnitName":"Yarn vs. npm",
+          "blocks":[
+            {
+              "title":"",
+              "content":"Yarn and npm are two of the most popular package managers for JavaScript. While they serve similar purposes, there are some key differences:"
+            },
+            {
+              "title":"",
+              "content":"• Yarn's speed and determinism are often cited as advantages over npm."
+            },
+            {
+              "title":"",
+              "content":"• Yarn's lock file is more reliable, ensuring consistent dependency versions across different environments."
+            },
+            {
+              "title":"",
+              "content":"• npm has a larger registry, which can be an advantage for some packages."
+            }
+          ]
+        },
+        {
+          "subUnitName":"Real-World Applications",
+          "blocks":[
+            {
+              "title":"",
+              "content":"Yarn is widely used in various software development projects, including:"
+            },
+            {
+              "title":"Web Development",
+              "content":"Yarn is a top choice for managing dependencies in web development projects. It ensures that packages are installed quickly and consistently."
+            },
+            {
+              "title":"React and React Native Development",
+              "content":"Many React and React Native projects leverage Yarn for its speed and reliability in handling dependencies."
+            }
+          ]
+        },
+        {
+          "subUnitName":"Conclusion",
+          "blocks":[
+            {
+              "title":"",
+              "content":"In the world of modern software development, package management is a critical aspect of any project. Yarn, with its speed, determinism, and security features, has earned its place as a preferred package manager. Whether you're working on web development, React projects, or other JavaScript-based applications, Yarn can significantly enhance your development process and ensure a smoother and more reliable workflow."
+            }
+          ]
+        }
+      ]
+    }
+  },
+
+  {
+    "id":"3",
+    "user":{
+      "pic":"/profile.jpeg",
+      "name":"Nethmina Sandaruwan",
+      "date":"2023-11-03"
+    },
+    "article":{
+      "category":"Software Development",
+      "title":"Mastering Spring Boot: Building Modern Java Applications",
+      "subtitle":"An In-Depth Guide to Spring Boot and Its Role in Contemporary Software Development",
+      "content":[
+        {
+          "subUnitName":"Introduction",
+          "blocks":[
+            {
+              "title":"",
+              "content":"In the realm of contemporary software development, building efficient and scalable Java applications is a common challenge. Spring Boot, a framework based on the popular Spring framework, has emerged as a game-changer. This article provides a comprehensive overview of Spring Boot, its features, and how it simplifies the development of Java applications."
+            }
+          ]
+        },
+        {
+          "subUnitName":"Introduction to Spring Boot",
+          "blocks":[
+            {
+              "title":"",
+              "content":"Spring Boot is an open-source Java-based framework designed to simplify the development of production-ready applications. It builds on the foundation of the Spring framework and offers a range of features to streamline the development process."
+            }
+          ]
+        },
+        {
+          "subUnitName":"Key Features of Spring Boot",
+          "blocks":[
+            {
+              "title":"",
+              "content":"Spring Boot offers a set of powerful features that distinguish it as a valuable tool for modern software development:"
+            },
+            {
+              "title":"Auto-Configuration",
+              "content":"Spring Boot's auto-configuration feature automatically configures application components, reducing the need for manual setup and configuration."
+            },
+            {
+              "title":"Embedded Servers",
+              "content":"It provides support for embedded servers like Tomcat and Jetty, eliminating the need for deploying applications on external servers."
+            },
+            {
+              "title":"Production-Ready",
+              "content":"Spring Boot comes with built-in health checks, metrics, and externalized configuration, making it production-ready out of the box."
+            },
+            {
+              "title":"Spring Ecosystem",
+              "content":" It seamlessly integrates with the broader Spring ecosystem, leveraging the power of Spring Data, Spring Security, and more."
+            },
+            {
+              "title":"Microservices",
+              "content":"Spring Boot's simplicity and modularity make it an excellent choice for building microservices and cloud-native applications."
+            }
+          ]
+        },
+        {
+          "subUnitName":"Spring Boot vs. Traditional Spring",
+          "blocks":[
+            {
+              "title":"",
+              "content":"While the traditional Spring framework offers extensive capabilities, Spring Boot simplifies the development process by providing a set of conventions and defaults. This reduces the need for extensive configuration, allowing developers to focus on application logic."
+            }
+          ]
+        },
+        {
+          "subUnitName":"Real-World Applications",
+          "blocks":[
+            {
+              "title":"",
+              "content":"Spring Boot is widely used in various software development scenarios, including:"
+            },
+            {
+              "title":"Web Applications",
+              "content":" It's an excellent choice for building web applications and RESTful APIs."
+            },
+            {
+              "title":"Microservices",
+              "content":"Spring Boot is a popular framework for developing microservices that can be independently deployed and scaled."
+            },
+            {
+              "title":"Cloud-Native Development",
+              "content":"It's well-suited for building cloud-native applications that leverage cloud services and containers."
+            }
+          ]
+        },
+        {
+          "subUnitName":"Conclusion",
+          "blocks":[
+            {
+              "title":"",
+              "content":"In the fast-paced world of software development, simplicity and productivity are paramount. Spring Boot simplifies Java application development, making it accessible to a broader range of developers. Whether you're building web applications, microservices, or cloud-native solutions, Spring Boot is a powerful tool that can boost your efficiency and help you stay ahead in the competitive software development landscape."
             }
           ]
         }
